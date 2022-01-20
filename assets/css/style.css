@@ -61,6 +61,20 @@ li {
     position: relative;
 }
 
+.form-control {
+    margin-top: 15px;
+    width: 100%;
+    display: block;
+}
+
+.form-control input {
+    padding: 10px 8px;
+    width: 100%;
+    margin: 8px 0;
+    border: solid #ccc 1px;
+    font-size: 15px;
+}
+
 #main {
 
 }
@@ -110,6 +124,7 @@ li {
 #content {
     margin-left: auto;
     margin-right: auto;
+    padding: 8px 32px;
 }
 
 #content .section-header {
@@ -133,10 +148,6 @@ li {
     content: "";
     display: block;
     clear: both;
-}
-
-#poster .poster-img {
-
 }
 
 #poster .poster-body {
@@ -164,10 +175,6 @@ li {
     background-clip: padding-box, content-box;
 }
 
-#projects {
-    padding: 8px 32px;
-}
-
 #projects .project-des {
     position: absolute;
     top: 0;
@@ -177,8 +184,8 @@ li {
     color: #fff;
 }
 
-#about {
-    padding: 8px 32px;
+#about .about-img {
+    filter: grayscale(0.7);
 }
 
 #about .about-name {
@@ -210,6 +217,31 @@ li {
     background-color: #ccc;
 }
 
+#contact .form-btn {
+    display: inline;
+    width: auto;
+    margin-top: 16px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 16px;
+}
+
+#map {
+    margin-top: 32px;
+}
+
+#footer {
+    height: 85px;
+    background-color: #000;
+    text-align: center;
+}
+
+#footer p,
+#footer a {
+    color: #fff;
+    line-height: 85px;
+}
 
 
 
